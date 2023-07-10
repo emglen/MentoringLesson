@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5346183-3cd2-42df-94cd-dadd11460c10" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MentoringLessonTests/FizzBuzzTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SummString/SummStringClass.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2RvLTVPQqydf3snzW3nRAMZb8oA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/vitaliisirodan/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/vitaliisirodan/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/vitaliisirodan/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5346183-3cd2-42df-94cd-dadd11460c10" name="Changes" comment="" />
+      <created>1688125617526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688125617526</updated>
+      <workItem from="1688125619227" duration="1652000" />
+      <workItem from="1688127287943" duration="1000" />
+      <workItem from="1688361144139" duration="4391000" />
+      <workItem from="1688367137036" duration="2375000" />
+      <workItem from="1688373635479" duration="1000" />
+      <workItem from="1688382510637" duration="2092000" />
+      <workItem from="1688391951319" duration="575000" />
+      <workItem from="1688392536879" duration="5000" />
+      <workItem from="1688465066698" duration="1672000" />
+      <workItem from="1688466758847" duration="1000" />
+      <workItem from="1688540986487" duration="2084000" />
+      <workItem from="1688543999324" duration="3000" />
+      <workItem from="1688546651382" duration="6100000" />
+      <workItem from="1688556972427" duration="584000" />
+      <workItem from="1688557568587" duration="2105000" />
+      <workItem from="1688640620727" duration="1146000" />
+      <workItem from="1688641782300" duration="7000" />
+      <workItem from="1688645252065" duration="614000" />
+      <workItem from="1688645876155" duration="5000" />
+      <workItem from="1688970616989" duration="48000" />
+      <workItem from="1688970686962" duration="2000" />
+      <workItem from="1688973931326" duration="291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

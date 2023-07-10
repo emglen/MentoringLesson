@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a0f9d13b_002Da93c_002D4527_002D8124_002De37e135c0a33/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F1F9BB01-DDA9-416A-9E37-879825D4964A::net7.0::MentoringLes1.FizzBuzzTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7F19355F-D270-4CCA-A854-B7B2FD8B5668::net7.0::TestStringCalculator.UnitTest1.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::7F19355F-D270-4CCA-A854-B7B2FD8B5668::net7.0::TestStringCalculator.UnitTest1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24ADFDE-236A-43A4-AC13-16D6E0B85A5C::net7.0::TestRim.UnitTest1.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24ADFDE-236A-43A4-AC13-16D6E0B85A5C::net7.0::TestRim.UnitTest1.TestNumber2&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24ADFDE-236A-43A4-AC13-16D6E0B85A5C::net7.0::TestRim.UnitTest1.ConvertToRoman_ShouldReturnCorrectRomanNumeral&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B979B397-CFE3-4D33-8330-123FE75B9EB5::net7.0::UnitTest1.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B979B397-CFE3-4D33-8330-123FE75B9EB5::net7.0::UnitTest1.SummTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::B979B397-CFE3-4D33-8330-123FE75B9EB5::net7.0::UnitTest1&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

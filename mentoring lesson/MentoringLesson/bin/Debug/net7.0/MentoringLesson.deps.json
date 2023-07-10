@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MentoringLesson/1.0.0": {
+        "runtime": {
+          "MentoringLesson.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MentoringLesson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

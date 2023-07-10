@@ -1,0 +1,12 @@
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/bin/Debug/net7.0/MentoringLesson.deps.json
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/bin/Debug/net7.0/MentoringLesson.dll
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/bin/Debug/net7.0/MentoringLesson.pdb
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.csproj.AssemblyReference.cache
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.AssemblyInfoInputs.cache
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.AssemblyInfo.cs
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.csproj.CoreCompileInputs.cache
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.dll
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/refint/MentoringLesson.dll
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/MentoringLesson.pdb
+/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/Debug/net7.0/ref/MentoringLesson.dll

@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/Users/vitaliisirodan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/MentoringLesson.csproj",
+      "projectName": "MentoringLesson",
+      "projectPath": "/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/MentoringLesson.csproj",
+      "packagesPath": "/Users/vitaliisirodan/.nuget/packages/",
+      "outputPath": "/Users/vitaliisirodan/RiderProjects/mentoring lesson/MentoringLesson/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/vitaliisirodan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.jooble.com/nuget": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
