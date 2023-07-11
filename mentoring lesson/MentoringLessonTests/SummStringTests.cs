@@ -3,42 +3,59 @@ using SummString;
 
 public class SummStringTests
 {
-    SummStringClass s = new SummStringClass();
-
-    [Theory]
-    [InlineData("5", 5)]
-    [InlineData("55", 55)]
-    [InlineData("0", 0)]
-    public void SummTests(string actual, int expected)
-    {
-        actual.Should().Be(expected.ToString());
-    }
-
-    [Fact] public void TestWithSumm()
-    {
-        int test = s.SummNumbers("5 5");
-        test.Should().Be(10);
+    private readonly SummStringClass _sut;
+    public SummStringTests(){
+        _sut = new SummStringClass();
     }
     
-    [Fact] public void TestWithSummWithText()
+    [Fact]
+    public void SumDefaultNumbers()
     {
-        int test = s.SummNumbers("5 text 5");
-        test.Should().Be(10);
-    }
-    [Fact] public void TestWithSummWithSleshN()
-    {
-        int test = s.SummNumbers("5/ntext 5");
-        test.Should().Be(10);
-    }
-    [Fact] public void TestWithOutDelimeterSleshN()
-    {
-        int test = s.SummNumbers("10 10");
+        int test = _sut.SummNumbers("5 15");
         test.Should().Be(20);
     }
-    [Fact] 
-    public void TestWithDelimeterSleshN1()
+    
+    [Fact]
+    public void SumWithNull()
     {
-        int test = s.SummNumbers("//;\n3;4;5");
+        int test = _sut.SummNumbers("5 Null");
+        test.Should().Be(5);
+    }
+    [Fact]
+    public void SumWithZero()
+    {
+        int test = _sut.SummNumbers("523 0 27");
+        test.Should().Be(550);
+    }
+    [Fact]
+    public void SummWithSymbols()
+    {
+        int test = _sut.SummNumbers("5/ntext 5");
+        test.Should().Be(10);
+    }
+    [Fact] 
+    public void SumUseDefaultSeparator()
+    {
+        int test = _sut.SummNumbers("//;\n3;4;5");
         test.Should().Be(12);
+    }
+    [Fact] 
+    public void SumUseDefaultSeparatorWithSymbols()
+    {
+        int test = _sut.SummNumbers("//;\n3;test;45;522");
+        test.Should().Be(570);
+    }
+    [Fact] 
+    public void SumUseDefaultSeparatorWithZero()
+    {
+        int test = _sut.SummNumbers("//;\n3;test0;Null;0;522");
+        test.Should().Be(525);
+    }
+    
+    [Fact] 
+    public void SumUseSeveralSeparators()
+    {
+        int test = _sut.SummNumbers("//;\n3; test0      ;Null; 0;522");
+        test.Should().Be(525);
     }
 }
