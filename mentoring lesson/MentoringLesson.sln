@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoringLesson", "Mentorin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentoringLessonTests", "MentoringLessonTests\MentoringLessonTests.csproj", "{F1F9BB01-DDA9-416A-9E37-879825D4964A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrestikNolikGames", "KrestikNolikGames\KrestikNolikGames.csproj", "{900185A8-FD33-450B-B528-A1E601AB0CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNLibrary", "KNLibrary\KNLibrary.csproj", "{40D35135-8E52-4202-BE15-BDD381820ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{F1F9BB01-DDA9-416A-9E37-879825D4964A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F9BB01-DDA9-416A-9E37-879825D4964A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F9BB01-DDA9-416A-9E37-879825D4964A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900185A8-FD33-450B-B528-A1E601AB0CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900185A8-FD33-450B-B528-A1E601AB0CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900185A8-FD33-450B-B528-A1E601AB0CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900185A8-FD33-450B-B528-A1E601AB0CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D35135-8E52-4202-BE15-BDD381820ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D35135-8E52-4202-BE15-BDD381820ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D35135-8E52-4202-BE15-BDD381820ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D35135-8E52-4202-BE15-BDD381820ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
