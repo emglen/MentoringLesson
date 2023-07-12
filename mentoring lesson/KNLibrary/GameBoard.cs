@@ -2,29 +2,46 @@ namespace KNLibrary;
 
 public class GameBoard
 {
-    public string[,] CreateGameBoard()
+    public char[] CreateGameBoard()
     {
-        string [,] gameBoard=
-        {
-            {"1","",""},
-            {"","d",""},
-            {"","","2"}
-        };
+        var gameBoard= new[] {'1','2','3','4','5','6','7','8','9'};
         return gameBoard;
     }
-    public void ActualGameBoard(string [,] gameBoard)
+    public void ActualGameBoard(char [] gameBoard)
     {
-        for (int i = 0; i<gameBoard.GetLength(0);i++)
+        Console.WriteLine(gameBoard[0] + " " + gameBoard[1] + " " + gameBoard[2]);
+        Console.WriteLine(gameBoard[3] + " " + gameBoard[4] + " " + gameBoard[5]);
+        Console.WriteLine(gameBoard[6] + " " + gameBoard[7] + " " + gameBoard[8]);
+    }
+
+    public bool WinCheck(char[] board, char symbol)
+    {
+        if ((board[0] == symbol && board[1] == symbol && board[2] == symbol) ||
+            (board[3] == symbol && board[4] == symbol && board[5] == symbol) ||
+            (board[6] == symbol && board[7] == symbol && board[8] == symbol) ||
+            (board[0] == symbol && board[3] == symbol && board[6] == symbol) ||
+            (board[1] == symbol && board[4] == symbol && board[7] == symbol) ||
+            (board[2] == symbol && board[5] == symbol && board[8] == symbol) ||
+            (board[0] == symbol && board[4] == symbol && board[8] == symbol) ||
+            (board[2] == symbol && board[4] == symbol && board[6] == symbol))
         {
-            for (int j =0; j<gameBoard.GetLength(1); j++)
-            {
-                Console.WriteLine(gameBoard[i,j]);
-            }
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
-    public bool WinnCheck(string[,] gameBoard)
+    public bool IsValidField(char[] board, int number)
     {
-        return true;
+        if (board[number - 1] == number)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 }

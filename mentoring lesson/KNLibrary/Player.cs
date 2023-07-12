@@ -2,15 +2,10 @@
 
 public class Player
 {
-    private string name;
-    private string gameSymbol;
-    public Player(string playerName, string gameSymbol)
+    public string name;
+    public char gameSymbol;
+    public Player(string playerName, char gameSymbol)
     {
         name = playerName;
     }
-    public string Play(string player)
-    {
-        return "";
-    }
-    
 }
