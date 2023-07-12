@@ -33,15 +33,15 @@ public class GameBoard
         }
     }
 
-    public bool IsValidField(char[] board, int number)
+    public bool IsValidField(char[] board, char number)
     {
         if (board[number - 1] == number)
         {
-            return false;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
 }

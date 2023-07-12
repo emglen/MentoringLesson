@@ -9,7 +9,7 @@ static void Main(string[] args)
    bool nextPlayer = true;
 
    var board = gameBoard.CreateGameBoard();
-   int number = 0;
+   char number = '0';
 
    while (!gameFinish)
    {
